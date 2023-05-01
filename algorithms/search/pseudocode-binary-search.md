@@ -1,0 +1,9 @@
+- search(arr, low, high)
+- due to of we find a middle of the value use this formula
+  - mid = lo + (high-low)/2
+- there are several condition that we need to meet
+  - if val = mid
+  - else if val > mid
+    - low = mid + 1
+  - else high = mid
+- this psudocode with assumption that we have a sorted array
